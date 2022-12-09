@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <a
           href="https://loonyloon999.github.io/ProductLandingPage/"
           style={{ color: "green" }}
