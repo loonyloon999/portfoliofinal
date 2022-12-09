@@ -1,21 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://loonyloon999.github.io/ProductLandingPage/"
+          style={{ color: "green" }}
           target="_blank"
-          rel="noopener noreferrer"
         >
-          Learn React
+          Personas
+        </a>
+        <a
+          href="https://loonyloon999.github.io/ResponsiveRedesignPortfolio/"
+          style={{ color: "green" }}
+          target="_blank"
+        >
+          Responsive Redesign
+        </a>
+        <a
+          href="https://loonyloon999.github.io/development/"
+          style={{ color: "green" }}
+          target="_blank"
+        >
+          Development
         </a>
       </header>
     </div>
