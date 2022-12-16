@@ -13,7 +13,7 @@ import Development from "./pages/Development";
 import ResponsiveRedesign from "./pages/ResponsiveRedesign";
 import IterativeDesign from "./pages/IterativeDesign";
 import Food from "./pages/Food";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
