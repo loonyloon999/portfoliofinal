@@ -1,34 +1,35 @@
 import logo from "./logo.svg";
 import "./App.css";
+import StickyHeader from "./components/StickyHeader.js";
+import ProjectBox from "./components/ProjectBox.js";
+import developmentForPortfolio from "./developmentForPortfolio.png";
+import responsiveRedesignForPortfolio from "./responsiveRedesignForPortfolio.png";
+import iterativeDesignForPortfolio from "./iterativeDesignForPortfolio.png";
+import foodForPortfolioFinal from "./foodForPortfolioFinal.png";
+import { AiFillGithub } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
+import Home from "./pages/Home";
+import Development from "./pages/Development";
+import ResponsiveRedesign from "./pages/ResponsiveRedesign";
+import IterativeDesign from "./pages/IterativeDesign";
+import Food from "./pages/Food";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a
-          href="https://loonyloon999.github.io/ProductLandingPage/"
-          style={{ color: "green" }}
-          target="_blank"
-        >
-          Personas
-        </a>
-        <a
-          href="https://loonyloon999.github.io/ResponsiveRedesignPortfolio/"
-          style={{ color: "green" }}
-          target="_blank"
-        >
-          Responsive Redesign
-        </a>
-        <a
-          href="https://loonyloon999.github.io/development/"
-          style={{ color: "green" }}
-          target="_blank"
-        >
-          Development
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/development" element={<Development />} />
+          <Route path="/responsiveredesign" element={<ResponsiveRedesign />} />
+          <Route path="/iterativedesign" element={<IterativeDesign />} />
+          <Route path="/food" element={<Food />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
+//mailto:no-reply@example.com
 
 export default App;
