@@ -13,14 +13,14 @@ import Development from "./pages/Development";
 import ResponsiveRedesign from "./pages/ResponsiveRedesign";
 import IterativeDesign from "./pages/IterativeDesign";
 import Food from "./pages/Food";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //comment test
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/portfoliofinal" element={<Home />} />
           <Route path="/development" element={<Development />} />
           <Route path="/responsiveredesign" element={<ResponsiveRedesign />} />
           <Route path="/iterativedesign" element={<IterativeDesign />} />
