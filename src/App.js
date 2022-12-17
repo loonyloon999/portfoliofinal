@@ -30,6 +30,5 @@ function App() {
     </div>
   );
 }
-//mailto:no-reply@example.com
 
 export default App;
