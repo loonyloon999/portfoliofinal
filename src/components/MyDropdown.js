@@ -14,17 +14,11 @@ const MyDropdown = ({ project1, project2, project3, project4 }) => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="/portfoliofinal/development">
-          {project1}
-        </Dropdown.Item>
-        <Dropdown.Item href="/portfoliofinal/iterativedesign">
-          {project2}
-        </Dropdown.Item>
-        <Dropdown.Item href="/portfoliofinal/responsiveredesign">
-          {project3}
-        </Dropdown.Item>
+        <Dropdown.Item href="/responsiveredesign">{project1}</Dropdown.Item>
+        <Dropdown.Item href="/iterativedesign">{project2}</Dropdown.Item>
+        <Dropdown.Item href="/responsiveredesign">{project3}</Dropdown.Item>
         <Dropdown.Divider />
-        <Dropdown.Item href="/portfoliofinal/food">{project4}</Dropdown.Item>
+        <Dropdown.Item href="/food">{project4}</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );

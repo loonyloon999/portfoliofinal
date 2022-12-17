@@ -29,12 +29,15 @@ const StickyHeader = ({ designerName }) => {
       </a>
 
       <div>
-        <MyDropdown
+        <p style={{ fontSize: 16, position: "fixed", right: 140 }}>
+          Pro-Bono Projects
+        </p>
+        {/* <MyDropdown
           project1={"Development"}
           project2={"Iterative Design"}
           project3={"Responsive Redesign"}
           project4={"Food Finding Application"}
-        ></MyDropdown>
+        ></MyDropdown> */}
       </div>
       {/* <img src={} alt="logo" className="" />
       <button onClick={onPress} className="">
