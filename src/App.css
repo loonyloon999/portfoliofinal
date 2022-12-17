@@ -15,9 +15,9 @@
 
 .button1 {
   display: inline-block;
-  padding: 0.35em 1.2em;
+  padding: 0.3em 1.1em;
   border: 0.1em solid #000000;
-  margin: 0 0.3em 0.3em 0;
+  margin: 0 0.25em 0.25em 0;
   border-radius: 0.2em;
   box-sizing: border-box;
   text-decoration: none;
@@ -27,7 +27,7 @@
   background-color: #000000;
   text-align: center;
   transition: all 0.3s;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 .button1:hover {
   color: #000000;
@@ -81,9 +81,9 @@ button:hover {
 }
 
 .footer {
-  margin-top: 150px;
+  margin-top: 100px;
   background-color: #f7f7f7;
-  height: 400px;
+  height: 300px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ button:hover {
   color: black;
   font-family: "Titillium Web", sans-serif;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 46px;
   width: 80%;
   margin-bottom: 40px;
 }
@@ -125,15 +125,15 @@ button:hover {
   justify-content: center;
   top: 0;
   width: 100%;
-  height: 100px;
-  padding: 20px 0;
+  height: 60px;
+  padding: 10px 0;
   /* background-color: #f8f9fa; */
   background-color: #ffffff;
   font-family: "Titillium Web", sans-serif;
-  font-size: 25px;
+  font-size: 17px;
   font-weight: 700;
   color: #187444;
-  border-bottom: 1px solid black;
+  border-bottom: 0.5px solid black;
   z-index: 1;
 }
 
@@ -141,7 +141,7 @@ button:hover {
   color: "black";
   font-family: "Titillium Web", sans-serif;
   width: 80%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /* style={{ backgroundColor: "#eee8aa", width: "100%" }} */
@@ -151,10 +151,10 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 23px;
   text-align: center;
-  margin-top: 260px;
-  margin-bottom: 260px;
+  margin-top: 150px;
+  margin-bottom: 160px;
 }
 
 @keyframes App-logo-spin {

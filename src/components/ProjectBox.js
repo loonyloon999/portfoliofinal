@@ -24,9 +24,9 @@ const ProjectBox = ({
       <button
         onClick={() => navigate(page)}
         style={{
-          width: "800px",
-          marginRight: 70,
-          marginLeft: 70,
+          width: "520px",
+          marginRight: 50,
+          marginLeft: 50,
           backgroundColor: "white",
         }}
       >
@@ -37,15 +37,15 @@ const ProjectBox = ({
             className="project-image"
             style={
               isLaptop
-                ? { width: "800px", height: "625px" }
-                : { width: "300px", height: "625px" }
+                ? { width: "500px", height: "413px" }
+                : { width: "260px", height: "413px" }
             }
           />
         </div>
         <div className="project-box-text">
-          <h1 style={{ fontWeight: "600", fontSize: "40px" }}>{title}</h1>
-          <p style={{ fontWeight: "500", fontSize: "30px" }}>{type}</p>
-          <p style={{ fontWeight: "200", fontSize: "25px" }}>{description}</p>
+          <h1 style={{ fontWeight: "600", fontSize: "30px" }}>{title}</h1>
+          <p style={{ fontWeight: "500", fontSize: "20px" }}>{type}</p>
+          <p style={{ fontWeight: "200", fontSize: "15px" }}>{description}</p>
         </div>
       </button>
     </div>

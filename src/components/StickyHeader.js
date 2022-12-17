@@ -23,7 +23,7 @@ const StickyHeader = ({ designerName }) => {
     >
       {/* className="sticky-header-container" */}
       <a href="/portfoliofinal">
-        <p style={{ color: "green", position: "fixed", left: 200 }}>
+        <p style={{ color: "green", position: "fixed", left: 140 }}>
           {designerName}
         </p>
       </a>

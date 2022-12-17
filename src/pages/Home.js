@@ -75,17 +75,18 @@ function Home() {
             page={"food"}
           />
         </div>
+        {/* //footer */}
         <div className="footer">
           <h1
             style={{
               fontFamily: "Titillium Web",
-              fontSize: "50px",
+              fontSize: "25px",
               fontWeight: "600",
             }}
           >
             Let's Connect!
           </h1>
-          <p style={{ fontFamily: "Titillium Web", fontSize: "25px" }}>
+          <p style={{ fontFamily: "Titillium Web", fontSize: "15px" }}>
             Give a loon call, or connect with me about my pro bono work on
             Github or Email.
           </p>
@@ -111,7 +112,7 @@ function Home() {
               fontFamily: "Titillium Web",
               fontSize: "22px",
               fontWeight: "200",
-              marginTop: "100px",
+              marginTop: "50px",
             }}
           >
             ® Created by loonyloon999

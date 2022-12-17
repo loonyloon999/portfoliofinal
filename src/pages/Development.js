@@ -22,10 +22,10 @@ function Development() {
         >
           <h1
             style={{
-              paddingTop: "200px",
+              paddingTop: "130px",
               color: "black",
               fontWeight: "700",
-              fontSize: "70px",
+              fontSize: "46px",
               fontFamily: "Titillium Web",
             }}
           >
@@ -35,8 +35,8 @@ function Development() {
             style={{
               color: "black",
               fontWeight: "200",
-              fontSize: "30px",
-              paddingTop: 50,
+              fontSize: "20px",
+              paddingTop: 20,
               fontFamily: "Titillium Web",
             }}
           >
@@ -47,7 +47,7 @@ function Development() {
             src={developmentForPortfolio}
             alt="logo"
             className="project-image"
-            style={{ width: "800px", height: "625px", paddingTop: 25 }}
+            style={{ width: "525px", height: "410px", paddingTop: 25 }}
           />
         </div>
         <div>
@@ -56,9 +56,10 @@ function Development() {
               marginTop: "100px",
               color: "black",
               textAlign: "left",
-              marginLeft: 190,
+              marginLeft: 160,
               fontFamily: "Titillium Web",
               fontWeight: "600",
+              fontSize: "30px",
             }}
           >
             Context and Purpose
@@ -66,9 +67,9 @@ function Development() {
           <p
             style={{
               fontFamily: "Titillium Web",
-              fontSize: "30px",
-              marginLeft: 190,
-              marginRight: 190,
+              fontSize: "20px",
+              marginLeft: 160,
+              marginRight: 160,
               textAlign: "left",
             }}
           >
@@ -86,7 +87,7 @@ function Development() {
             }}
           >
             <MdVolunteerActivism
-              size={90}
+              size={55}
               style={{
                 color: "black",
                 marginRight: "10%",
@@ -102,7 +103,7 @@ function Development() {
               }}
             /> */}
             <FaLaptopCode
-              size={90}
+              size={55}
               style={{
                 color: "black",
                 marginRight: "10%",
@@ -115,7 +116,7 @@ function Development() {
               display: "flex",
               flexDirection: "row",
               justifyContent: "center",
-              fontSize: "25px",
+              fontSize: "18px",
             }}
           >
             <p
@@ -153,12 +154,13 @@ function Development() {
         <div>
           <h1
             style={{
-              marginTop: "100px",
+              marginTop: "70px",
               color: "black",
               fontFamily: "Titillium Web",
               fontWeight: "600",
               textAlign: "left",
-              marginLeft: 190,
+              marginLeft: 160,
+              fontSize: "30px",
             }}
           >
             Interesting Lessons Learned
@@ -166,9 +168,9 @@ function Development() {
           <p
             style={{
               fontFamily: "Titillium Web",
-              fontSize: "30px",
-              marginLeft: 190,
-              marginRight: 190,
+              fontSize: "20px",
+              marginLeft: 160,
+              marginRight: 160,
               textAlign: "left",
             }}
           >
@@ -180,18 +182,18 @@ function Development() {
             future.
           </p>
         </div>
-        {/* ----footer---- */}
+        {/* //footer */}
         <div className="footer">
           <h1
             style={{
               fontFamily: "Titillium Web",
-              fontSize: "50px",
+              fontSize: "25px",
               fontWeight: "600",
             }}
           >
             Let's Connect!
           </h1>
-          <p style={{ fontFamily: "Titillium Web", fontSize: "25px" }}>
+          <p style={{ fontFamily: "Titillium Web", fontSize: "15px" }}>
             Give a loon call, or connect with me about my pro bono work on
             Github or Email.
           </p>
@@ -217,7 +219,7 @@ function Development() {
               fontFamily: "Titillium Web",
               fontSize: "22px",
               fontWeight: "200",
-              marginTop: "100px",
+              marginTop: "50px",
             }}
           >
             ® Created by loonyloon999
