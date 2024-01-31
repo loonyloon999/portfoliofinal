@@ -33,15 +33,6 @@ function Home() {
         </div>
         <div className="project-box-layout">
           <ProjectBox
-            backgroundC={"#eee8aa"}
-            title={"Responsive Redesign"}
-            type={"Pro Bono Project"}
-            description={"A redesign of the 007 Museum's website"}
-            image={responsiveRedesignForPortfolio}
-            isLaptop={true}
-            page={"responsiveredesign"}
-          />
-          <ProjectBox
             backgroundC={"#DDFBFF"}
             title={"Iterative Design"}
             type={"Pro Bono Project"}
@@ -51,6 +42,17 @@ function Home() {
             image={iterativeDesignForPortfolio}
             isLaptop={true}
             page={"iterativedesign"}
+          />
+          <ProjectBox
+            backgroundC={"#FAEEFF"}
+            title={"Food Finder Application"}
+            type={"Pro Bono Project"}
+            description={
+              "A mobile application that allows users to find restaurants in a given area"
+            }
+            image={foodForPortfolioFinal}
+            isLaptop={false}
+            page={"food"}
           />
           <ProjectBox
             backgroundC={"#9FFF8E"}
@@ -64,15 +66,13 @@ function Home() {
             page={"development"}
           />
           <ProjectBox
-            backgroundC={"#FAEEFF"}
-            title={"Food Finder Application"}
+            backgroundC={"#eee8aa"}
+            title={"Responsive Redesign"}
             type={"Pro Bono Project"}
-            description={
-              "A mobile application that allows users to find restaurants in a given area"
-            }
-            image={foodForPortfolioFinal}
-            isLaptop={false}
-            page={"food"}
+            description={"A redesign of the 007 Museum's website"}
+            image={responsiveRedesignForPortfolio}
+            isLaptop={true}
+            page={"responsiveredesign"}
           />
         </div>
         {/* //footer */}
