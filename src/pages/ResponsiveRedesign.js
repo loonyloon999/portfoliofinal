@@ -145,7 +145,7 @@ function ResponsiveRedesign() {
             </p>
           </div>
           <a
-            href="https://loonyloon999.github.io/ResponsiveRedesignPortfolio/"
+            href="https://loonyloon999.github.io/ResponsiveRedesign/"
             target="_blank"
           >
             <button onClick={() => {}} className="button1">

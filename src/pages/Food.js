@@ -147,10 +147,7 @@ function Food() {
             </p>
           </div>
 
-          <a
-            href="https://camo.githubusercontent.com/88b76f39617f79419bd7ea6f50264e7f4f19ddcc0e8cdd61a3817acdf484f29d/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f51353056553057774a465863526f70716c762f67697068792e676966"
-            target="_blank"
-          >
+          <a href="https://github.com/CalStell/food" target="_blank">
             <button className="button1">
               <p>View Project</p>
             </button>

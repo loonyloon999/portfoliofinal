@@ -68,7 +68,7 @@ function Home() {
             title={"Food Finder Application"}
             type={"Pro Bono Project"}
             description={
-              "An iterative redesign of Airhart Aeronautics' website"
+              "A mobile application that allows users to find restaurants in a given area"
             }
             image={foodForPortfolioFinal}
             isLaptop={false}
